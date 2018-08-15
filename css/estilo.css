@@ -1,0 +1,425 @@
+/* Geral */
+
+img
+{
+	max-width: 100%; 
+}
+
+
+/*Header e menu do meu site*/
+header
+{
+	width: 100%;
+	background: #000;
+	position: fixed;
+    top:0;
+    width: 100%;
+    padding: 20px 0;
+    z-index: 99999;
+}
+header div.nome_empresa a
+{
+    letter-spacing: .1em;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+nav.header_menu
+{
+	text-align: center;
+	text-align: right;
+	margin: 0 auto;
+
+}
+nav.header_menu ul li
+{
+    display: inline-block;
+    margin-left: 25px;
+    margin-top:-100px;
+}
+nav.header_menu ul li a
+{
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-size: 18px;
+    line-height: 25px;
+    padding: 10px 0;
+
+}
+nav.header_menu ul li a:hover
+{
+    color: #fec63e;
+    border-bottom: 1px #fec63e solid;
+    transition: all .5s ease;
+}
+
+
+
+
+/*Section Introdução*/
+section.introducao
+{
+	background: url("../images/banner.jpg") no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 400px;
+	text-align: center;
+}
+
+section div.logo_e_frase
+{
+	margin: 89px auto;
+	text-align: center;
+}	
+section div.logo_e_frase h1
+{
+	font-weight: regular;
+    font-size: 18px;
+    line-height: 34px;
+    letter-spacing: 0.1px;
+    text-transform: initial;
+    color: #ffffff;
+}
+a.btn-orcamento
+{
+	border-color: #fff;
+	color: #fff;
+}
+
+
+
+/*Section estrutura*/
+section.estrutura div.container
+{
+	margin-top: 150px;
+	text-align: center;
+}
+section div.titulo h1
+{
+	font-weight: bold;
+	color: black;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    padding-top: 10px;
+    margin-top: -93px;
+    padding-bottom: 39px;
+}
+section.estrutura h1
+{
+	font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    padding-top: 10px;
+    color: #ffffff;
+}
+section.estrutura h1::after
+{
+	content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #fec63e;
+    margin: 5px auto;
+}
+section.estrutura p
+{
+	padding: 10px;
+	font-size: 18px;
+    color: #ffffff;
+}
+
+section div.principal
+{
+	background: #000;
+	width: 418px;
+	/*padding: 20px 5px 20px 5px; */
+	margin-bottom: 20px;
+	max-width: 100%;
+}
+section div.boate
+{
+	background: #000;
+	width: 418px;
+	/*padding: 20px 5px 20px 5px; */
+	margin-bottom: 20px;
+	max-width: 100%;
+}
+section div.buffet
+{
+	background: #000;
+	width: 418px;
+	/*padding: 20px 5px 20px 5px; */
+	margin-bottom: 20px;
+	max-width: 100%;
+}
+section div.bartender
+{
+	background: #000;
+	width: 418px;
+	/*padding: 20px 5px 20px 5px; */
+	margin-bottom: 20px;
+	max-width: 100%;
+}
+
+
+
+/*quebra para footer*/
+section.quebra
+{
+	background: url("../images/luxo.jpg");
+	width: 100%;
+	height: 250px;
+	background-size: cover;
+	z-index: 99999;
+}
+div.cor
+{
+	background: #000;
+	opacity: 0.9;
+	height: 250px;
+
+
+}
+section div.frase_efeito
+{
+	text-align: center;
+}
+section div.frase_efeito h1
+{
+    font-family: Georgia,"Times New Roman",serif;
+	font-weight: bold;
+	color: #fec63e;
+    font-size: 20px;
+    line-height: 34px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    margin-top: 60px;
+}
+a.btn-final
+{	
+    font-family: Georgia,"Times New Roman",serif;
+	background: #000;
+	color: #fec63e;
+	border-color: #fff;
+	margin-top: 10px;
+}
+
+
+/*Footer*/
+footer
+{
+	background: #000;
+	width: 100%; 
+    color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+
+footer h3
+{
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: bold;
+    color: #fec63e;
+    text-transform: uppercase;
+    padding-top: 10px;
+    
+}
+footer h3::after
+{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #fec63e;
+    margin: 6px 0 10px;
+
+}
+
+.redes_sociais ul li a:hover {
+    border-color: #fff;
+}
+
+.redes_sociais ul li a {
+    border: 3px solid #fec63e;
+    display: block;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+
+}
+
+div.copy
+{
+    
+    width: 100%;
+    background: #fec63e;
+    padding: 20px 0;
+}
+
+
+/* Pagina Sobre */
+section.intro-sobre
+{
+    height: 300px;
+    margin-bottom: -50px;
+}
+section.intro-sobre div.titulo-sobre h1
+{
+    font-family: Georgia,"Times New Roman",serif;
+    margin: 150px auto;
+    color: #fff;
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+section.intro-sobre div.titulo-sobre h1::after
+{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #ffa900;
+    margin: 5px auto;
+}
+section.estrutura-sobre 
+{
+    padding-bottom: 50px;
+}
+section.estrutura-sobre div.historia-missao h2
+{
+    font-family: Georgia,"Times New Roman",serif;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+    letter-spacing: .1em;
+    color: #000;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: left;
+}
+section.estrutura-sobre div.historia-missao h2::after
+{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #000;
+    margin: 8px 0;
+}
+section.estrutura-sobre div.valores h2
+{
+    font-family: Georgia,"Times New Roman",serif;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+    letter-spacing: .1em;
+    color: #000;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: left;
+}
+section.estrutura-sobre div.valores h2::after
+{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #000;
+    margin: 8px 0;
+}
+section.estrutura-sobre div.historia-missao p
+{
+    font-family: Georgia,"Times New Roman",serif;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 1em;
+    padding-right: 60px;
+    color: #000;
+    text-align: left;
+}
+section.estrutura-sobre div.valores ul
+{
+    font-family: Georgia,"Times New Roman",serif;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 1em;
+    padding-right: 60px;
+    color: #000;
+    text-align: left;
+
+}
+
+/*Pagina contato*/
+section.estrutura-contato
+{
+    margin-bottom: 50px;
+    margin-top: -90px;
+}
+
+.contato_dados h3 {
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #fec63e;
+    font-weight: bold;
+}
+.contato_dados span {
+    display: block;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: Georgia,"Times New Roman",serif;
+}
+.contato_dados ul li a:hover {
+    border-color: #000;
+}
+
+.contato_dados ul li a {
+    border: 3px solid #fec63e;
+    display: block;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+
+/*posição dos formulários*/
+div.formulario-contato
+{
+    text-align: left;
+}
+div.contato_dados
+{
+    text-align: left;
+}
+
+
+/*Sumir os 4 itens do formulário*/
+
+
+.formphp label.nao-aparece, .formphp input.nao-aparece {
+    display: none !important;
+}
+
+#form-erro span, #form-send span  {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+#form-send {
+    color: #31aa39;
+}
+
+#form-erro {
+    color: #f64540;
+}
+
